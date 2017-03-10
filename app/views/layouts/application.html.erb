@@ -28,9 +28,18 @@
            <%= link_to 'See All Courses' %>
         </li>
         </ul>
-        
-      
-      
+        <ul class="navbar-nav">
+      <% if user_signed_in? %>
+        <li class="nav-item">
+          <%= link_to 'A user is signed in!', '#', class: 'nav-link' %>
+        </li>
+      <% else %>
+        <li class="nav-item">
+          <%= link_to 'No user is signed in :(', '#', class: 'nav-link' %>
+        </li>
+      <% end %>
+    </ul>
+       
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

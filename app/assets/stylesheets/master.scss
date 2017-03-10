@@ -1,1 +1,81 @@
 @import "bootstrap";
+
+.navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background-color: #F5111D;
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Gidugu', sans-serif;
+  font-weight: 100;
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  color: white;
+}
+
+.hero {
+  background: image_url('hero.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  margin:0;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .9;
+  color: white;
+  margin-top:-20px;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  margin-bottom:5px;
+
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
+  -moz-box-shadow: 2px 1px 10px 4px rgba(0,0,0,0.47);
+  -webkit-box-shadow: 2px 1px 10px 4px rgba(0,0,0,0.47);
+  box-shadow: 2px 1px 10px 4px rgba(0,0,0,0.47);
+  margin-bottom: 20px;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color:white;
+  opacity:.9;
+}
+
+body {
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+
+
+
+

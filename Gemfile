@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+gem 'carrierwave-aws'
 gem 'sass-rails'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'

@@ -2,10 +2,12 @@
 
 <div class="booyah-box col-10 offset-1">
   <h1><%= @course.title %></h1>
+  <%= image_tag @course.image, class: 'img-fluid' %>
   <br />
   <div class="row">
   <div class="col-sm-4 col-12 text-center">
-  <span class="badge badge-default">
+  <span class="badge badge-default" style="margin-top:20px">
+
     <%= number_to_currency @course.cost %>
     </span>
 

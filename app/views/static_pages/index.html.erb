@@ -10,19 +10,17 @@
 </div>
 
 <br />
-<div class="row feature text-center">
-  <div class="courses col-12 col-sm">
+<div class="row col-xs-12 feature text-center">
+  <h1><%= link_to 'Prep-Heavy Courses', courses_path %></h1>
+  <p class="subtitle text-center">Get ready for the next semester</p>
+  <br />
+  <div class="bros col-xs-6 col-sm-6">
     <h3>Making Media</h3>
-    <p>Get ready for the next semester</p>
+  <%= image_tag 'making_media.jpg', class: 'img-responsive' %>
   </div>
 
-  <div class="col-12 col-sm">
-    <h3>Contemporary Approaches</h3>
-    <p>Get ready for the next semester</p>
-  </div>
-
-  <div class="col-12 col-sm">
+  <div class="bros col-xs-6 col-sm-6" style="height:100%">
     <h3>Modern Asia</h3>
-    <p>Get ready for the next semester</p>
+    <%= image_tag 'modern_asia.jpg', class: 'img-responsive' %>
   </div>
 </div>

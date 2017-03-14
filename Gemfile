@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'simple_form'
 gem 'devise'
 gem "figaro"
+gem "mini_magick"
 gem "fog"
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 gem 'carrierwave-aws'

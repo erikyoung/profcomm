@@ -4,17 +4,14 @@
   <h1><%= @course.title %></h1>
   <%= image_tag @course.image, class: 'img-fluid' %>
   <br />
-  <div class="row">
-  <div class="col-sm-4 col-12 text-center">
-  <span class="badge badge-default" style="margin-top:20px">
-
-    <%= number_to_currency @course.cost %>
-    </span>
+  <div class="row text-center">
+  <div class="management col-sm-4 col-12 text-center">
+  
 
     <% if current_user && current_user == @course.user %>
       <br />
       <br />
-      <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
+      <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large text-center' %>
     <% end %>
 
     <br />
@@ -24,7 +21,7 @@
         <h3 class="badge badge-info">You Are Enrolled!</h3>
 
       <% else %>
-      <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary', method: :post %>
+      <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary text-center' , method: :post %>
       
       <% end %>
 
